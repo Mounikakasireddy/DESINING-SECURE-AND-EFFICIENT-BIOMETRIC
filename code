@@ -1,0 +1,81 @@
+
+package distributeddeduplication; import javax.swing.JFrame;
+public class Owner extends javax.swing.JFrame { public Owner () {
+initComponents(); jLabel6.setVisible(false);
+}
+
+private void initComponents() {
+
+jLabel1 = new.swing.JLabel();javax jLabel2 = new.swing.JLabel(javax); jLabel3 = new javax.swing.JLabel(); jTextField1 = new javax.swing.JTextField();
+jPasswordField1 = new javax.swing.JPasswordField(); jButton1 = new javax.swing.JButton();
+jButton2 = new javax.swing.JButton(); jLabel4 = new javax.swing.JLabel(); jLabel5 = new javax.swing.JLabel(); jLabel6 = new javax.swing.JLabel(); jLabel7 = new javax.swing.JLabel(); jLabel8 = new javax.swing.JLabel();
+ 
+jLabel9 = new javax.swing.JLabel(); setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE); setMaximumSize(new java.awt.Dimension(600, 380));
+setPreferredSize(new java.awt.Dimension(600, 380)); getContentPane().setLayout(null);
+jLabel1.setFont(new java.awt.Font("Perpetua Titling MT", 1, 18)); jLabel1.setText("Owner Login");
+getContentPane().add(jLabel1); jLabel1.setBounds(180, 40, 180, 40);
+jLabel2.setFont(new java.awt.Font("Perpetua Titling MT", 1, 12)); jLabel2.setText("Username");
+getContentPane().add(jLabel2); jLabel2.setBounds(70, 110, 100, 40);
+
+
+jLabel3.setFont(new java.awt.Font("Perpetua Titling MT", 1, 12)); jLabel3.setText("Password");
+getContentPane().add(jLabel3); jLabel3.setBounds(70, 170, 90, 40); getContentPane().add(jTextField1); jTextField1.setBounds(180, 110, 180, 30); getContentPane().add(jPasswordField1);
+ 
+jPasswordField1.setBounds(180, 170, 180, 30);
+
+jButton1.setFont(new java.awt.Font("Times New Roman", 1, 14)); jButton1.setText("Login");
+jButton1.addActionListener(new java.awt.event.ActionListener() { public void actionPerformed(java.awt.event.ActionEvent evt) {
+jButton1ActionPerformed(evt);
+
+}
+
+});
+
+
+java.util.logging.Logger.getLogger(Owner.class.getName()).log(java.util.logging.Level.SEVER E, null, ex);
+} catch (InstantiationException ex) {
+
+
+java.util.logging.Logger.getLogger(Owner.class.getName()).log(java.util.logging.Level.SEVER E, null, ex);
+} catch (IllegalAccessException ex) {
+
+
+java.util.logging.Logger.getLogger(Owner.class.getName()).log(java.util.logging.Level.SEVER E, null, ex);
+} catch (javax.swing.UnsupportedLookAndFeelException ex) {
+
+
+java.util.logging.Logger.getLogger(Owner.class.getName()).log(java.util.logging.Level.SEVER E, null, ex);
+}
+ 
+java.awt.EventQueue.invokeLater(new Runnable() { public void run() {
+new Owner().setVisible(true);
+
+new Owner().setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+}
+
+});
+
+}
+
+private javax.swing.JButton jButton1; private javax.swing.JButton jButton2; private javax.swing.JLabel jLabel1; private javax.swing.JLabel jLabel2; private javax.swing.JLabel jLabel3; private javax.swing.JLabel jLabel4; private javax.swing.JLabel jLabel5; private javax.swing.JLabel jLabel6; private javax.swing.JLabel jLabel7; private javax.swing.JLabel jLabel8; private javax.swing.JLabel jLabel9;
+private javax.swing.JPasswordField jPasswordField1; private javax.swing.JTextField jTextField1;
+}
+ 
+package distributeddeduplication; import javax.swing.JFrame;
+public class Main extends javax.swing.JFrame { public Main() {
+initComponents();
+
+}
+
+BEGIN:initComponents
+
+private void initComponents() { jPanel1 = new javax.swing.JPanel(); jLabel1 = new javax.swing.JLabel(); jLabel2 = new javax.swing.JLabel(); jPanel2 = new javax.swing.JPanel(); jLabel3 = new javax.swing.JLabel(); jLabel4 = new javax.swing.JLabel(); jLabel5 = new javax.swing.JLabel(); jLabel6 = new javax.swing.JLabel(); jLabel7 = new javax.swing.JLabel(); jLabel8 = new javax.swing.JLabel();
+});
+
+
+
+
+
+
+
